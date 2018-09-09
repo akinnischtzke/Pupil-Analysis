@@ -1,7 +1,9 @@
 # Pupil-Analysis
 MATLAB code for tracking and measuring mouse pupil during experiment
 
-This code will track both the location (centroid) and the diamter of the pupil of a mouse eye. Pupil diameter changes with the behavior of the animal (e.g. increases during locomotion, decreases during sleep/quiesence) and serves as a reliable physiological readout of the internal brain state of the animal.
+This code will track both the location (centroid) and the diameter of the pupil of a mouse eye. Pupil diameter changes with the behavior of the animal (e.g. increases during locomotion, decreases during sleep/quiesence) and therefore serves as a reliable physiological readout of the internal brain state of the animal.
+
+This code will save the pupil diameter across each frame, this information can than be combined with additional information that was collected during the experiment (i.e. neural data, other behavior data, etc).
 
 To run:
 
